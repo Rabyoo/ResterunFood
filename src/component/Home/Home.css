@@ -1,0 +1,96 @@
+.numbers {
+    background-color: #ab3350;
+    width: 100%;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 25px 0;
+    margin: 20px 0;
+}
+.row {
+    margin: 10px 0;
+}
+.numbers h2 {
+    font-size: 50px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.numbers h6 {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.pride, 
+.ingredients {
+    background-color: transparent;
+    width: 100%;
+    padding: 25px 0;
+    margin: 20px 0;
+    display: flex;
+}
+.pride h2 ,
+.ingredients h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ab3350;
+}
+.pride p, 
+.ingredients p {
+    color: #6a404a;
+    font-size: 17px;
+}
+button a, 
+.ingredients button a {
+    text-decoration: none;
+    color: #FFF !important;
+    font-size: 22px;
+}
+button a:hover, 
+.ingredients button a:hover {
+    color: #ab3350 !important;
+}
+.pride button, 
+.ingredients button {
+    border: none;
+    outline: none;
+    background-color: #ab3350;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: 0.4s;
+    color: #FFF;
+}
+button a, 
+.ingredients a:hover {
+    color: #ab3350;
+}
+.pride button:hover, 
+.ingredients button:hover {
+    border: 1px solid #ab3350;
+    color: #ab3350;
+    background-color: transparent;
+}
+.pride .private {
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+/* Start Styling CSS in ingredients sections */
+.ingredients img {
+    position: relative;
+    top: -70px;
+    left: 60px;
+    width: 500px;
+    height: 500px;
+}
+.ingredients ul li {
+    list-style: square;
+    color: #333;
+    padding: 0;
+    margin-top: 10px;
+}
+.ingredients ul {
+    padding: 0;
+}
+/* End Styling CSS in ingredients sections */
